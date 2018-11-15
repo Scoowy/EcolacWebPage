@@ -1,6 +1,7 @@
-include views/includes/header.pug
-include views/includes/navbar.pug
+include includes/header.pug
+include includes/navbar.pug
 
+<<<<<<< HEAD
 div(class = "card")
   div(class="card-content")
     div(class="media")
@@ -19,3 +20,77 @@ div(class = "card")
       br
     
 include views/includes/footer.pug
+=======
+main(class="container")
+  div(class="level")
+    div(class="level-left")
+      aside(class="menu")
+          ul(class="menu-list")
+          a(class="is-active")|Quienes somos
+          ul
+            li 
+              a() Mision
+            li 
+              a(href="#vision") Vision
+            li 
+              a(href="#valores") Valores
+            li
+              a(href="#politica") Politica empresarial
+    div(class="level-rigth")  
+      div(class="card")
+        div(class="card-content")
+          div(class="media")
+            div(class="media-left")
+              figure(class="image is-48x48")
+                img(src="./img/Recurso 1.PNG")  
+            div(class="media-content")
+              p(class="title is-4") Mision
+          div(class="content")
+            | Ser en el 2017 una empresa líder en el mercado de la región sur del país, 
+            | en la producción y comercialización de productos lácteos y alimentos, 
+            | de apoyo a emprendedores y estudiantes de la UTPL; construida en sus propias instalaciones, 
+            | con moderna tecnología, que garantice productos de calidad e inocuos, 
+            | con colaboradores comprometidos, con sentido social y cuidado del medio ambiente.
+
+      div(class="card", id="vision")
+        div(class="card-content")
+          div(class="media")
+            div(class="media-left")
+              figure(class="image is-48x48")
+                img(src="./img/Recurso 1.PNG")  
+            div(class="media-content")
+              p(class="title is-4") Vision
+          div(class="content") 
+            | Somos una empresa de tradición en el mercado local y en constante crecimiento,
+            | que brinda sus instalaciones a estudiantes y emprendedores de la UTPL, 
+            | elaborando variedad de productos lácteos inocuos y de calidad, 
+            | con permanente innovación de su maquinaria y capacitación continua de su personal humano, 
+            | comprometidos con el desarrollo agroindustrial de la región sur del país, la sociedad 
+            | y el medio ambiente.
+      div(class="card", id="valores")
+        div(class="card-content")
+          div(class="media")
+            div(class="media-left")
+              figure(class="image is-48x48")
+                img(src="./img/Recurso 1.PNG")  
+            div(class="media-content")
+              p(class="title is-4") Valores
+          div(class="content")
+              | Calidad: En la elaboración de productos inocuos en base a un sistema de aseguramiento de Calidad.
+              | Compromiso: Personal humano comprometido con la empresa para trabajo en equipo; con nuestro clientes, al brindarles productos de calidad; con la sociedad, al ofrecer estabilidad a su personal; con el sector ganadero aportando con capacitación y progreso; con los estudiantes y emprendedores de la UTPL dando las facilidades para su formación académica y desarrollo de proyectos y con el medio ambiente, al respetar y cumplir todas las normas establecidas para el cuidado de éste.
+              | Confianza: En la empresa y en el trabajo que realizaremos, con la finalidad de satisfacer a cada uno de nuestros clientes internos y externos.
+              | Justicia: Hacia nuestro personal y del personal a la empresa.
+              | Puntualidad: En la entrega de productos a nuestros clientes internos y externos.
+              | Innovación: De nuestras estrategias, métodos de trabajo, maquinaria, instalaciones y equipos. 
+      div(class="card", id="politica")
+        div(class="card-content")
+          div(class="media")
+            div(class="media-left")
+              figure(class="image is-48x48")
+                img(src="./img/Recurso 1.PNG")  
+            div(class="media-content")
+              p(class="title is-4") Politica empresarial
+          div(class="content")
+      |“ECOLAC CIA LTDA.” Empresa cuya actividad económica es el procesamiento, elaboración y comercialización de lácteos y alimentos. Se compromete a apoyar a emprendedores y estudiantes de la UTPL, vender productos de calidad e inocuos tales que logre siempre la satisfacción del cliente, con colaboradores comprometidos, con sentido social y cuidado del medio ambiente.
+include includes/footer.pug
+>>>>>>> e90efde3eae9e2eca8e232fee071f1048562538d
