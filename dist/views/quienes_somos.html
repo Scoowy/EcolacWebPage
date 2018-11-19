@@ -5,12 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta http-equiv="X-UA-Compatible" content="ie+edge"/>
     <link rel="stylessheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous"/>
-    <link rel="stylesheet" href="css/bulma.min.css"/>
-    <link rel="stylesheet" href="css/ext/bulma-caurosel.min.css"/>
-    <link rel="stylesheet" href="css/stulesheet.css"/>
-    <link rel="stylesheet" href="./css/bulma.min.css"/>
-    <link rel="stylesheet" href="./css/ext/bulma-carousel.min.css"/>
-    <link rel="stylesheet" href="./css/stylesheet.css"/>
+    <link rel="stylesheet" href="../css/bulma.min.css"/>
+    <link rel="stylesheet" href="../css/ext/bulma-carousel.min.css"/>
+    <link rel="stylesheet" href="../css/stylesheet.css"/>
     <title>ECOLAC</title>
   </head>
   <body>
@@ -18,9 +15,7 @@
       <section class="hero is-light">
         <div class="hero-body">
           <div class="container">
-            <div class="title has-text-centered">
-              <div src="./img/Recurso2.png"></div>
-            </div>
+            <div class="title has-text-centered"><img class="img-brand" src="../img/Recurso1.png"/></div>
           </div>
         </div>
       </section>
@@ -28,12 +23,11 @@
   </body>
 </html>
 <nav class="navbar is-info nav-sticky" role="navigation" aria-label="main navigation">
-  <div class="navbar-brand"><a class="navbar-burger burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
-  <div class="navbar-menu" id="navbarBasicExample">
-    <div class="navbar-start"><a class="navbar-item">
-        <Inicio></Inicio></a>
+  <div class="navbar-brand"><a class="navbar-item is-hidden-desktop" href="../index.html"><img src="../img/Recurso1.png" alt="Index"/></a><a class="navbar-burger burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
+  <div class="navbar-menu" id="navbar-main">
+    <div class="container navbar-start"><a class="navbar-item" href="../index.html">Inicio</a>
       <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Quiénes somos</a>
-        <div class="navbar-dropdown"><a class="navbar-item">Sobre nosotros</a><a class="navbar-item">Trabajos</a></div>
+        <div class="navbar-dropdown"><a class="navbar-item" href="./views/quienes_somos.html">Sobre nosotros</a><a class="navbar-item">Trabajos</a></div>
       </div>
       <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Productos</a>
         <div class="navbar-dropdown"><a class="navbar-item">Producto 1</a><a class="navbar-item">Producto 2</a><a class="navbar-item">Producto 3</a>
@@ -41,13 +35,13 @@
         </div>
       </div>
       <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Responsabilidad social</a></div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Contáctos</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="./views/contactos.html">Contáctos</a></div>
     </div>
   </div>
 </nav>
-<main class="container">
+<main class="container main-content">
   <div class="level">
-    <div class="level-left">
+    <div class="level-left" id="menu_left">
       <aside class="menu">
         <ul class="menu-list"></ul><a class="is-active">Quienes somos</a>
         <ul>
@@ -63,7 +57,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-left">
-              <figure class="image is-48x48"><img src="./img/Recurso 1.PNG"/></figure>
+              <figure class="image is-48x48"><img src="../img/Recurso 1.PNG"/></figure>
             </div>
             <div class="media-content">
               <p class="title is-4">Mision</p>
@@ -82,7 +76,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-left">
-              <figure class="image is-48x48"><img src="./img/Recurso 1.PNG"/></figure>
+              <figure class="image is-48x48"><img src="../img/Recurso 1.PNG"/></figure>
             </div>
             <div class="media-content">
               <p class="title is-4">Vision</p>
@@ -102,7 +96,7 @@
         <div class="card-content">
           <div class="media">
             <div class="media-left">
-              <figure class="image is-48x48"><img src="./img/Recurso 1.PNG"/></figure>
+              <figure class="image is-48x48"><img src="../img/Recurso 1.PNG"/></figure>
             </div>
             <div class="media-content">
               <p class="title is-4">Valores</p>
@@ -122,15 +116,15 @@
         <div class="card-content">
           <div class="media">
             <div class="media-left">
-              <figure class="image is-48x48"><img src="./img/Recurso 1.PNG"/></figure>
+              <figure class="image is-48x48"><img src="../img/Recurso 1.PNG"/></figure>
             </div>
             <div class="media-content">
               <p class="title is-4">Politica empresarial</p>
             </div>
           </div>
-          <div class="content"></div>
+          <div class="content">“ECOLAC CIA LTDA.” Empresa cuya actividad económica es el procesamiento, elaboración y comercialización de lácteos y alimentos. Se compromete a apoyar a emprendedores y estudiantes de la UTPL, vender productos de calidad e inocuos tales que logre siempre la satisfacción del cliente, con colaboradores comprometidos, con sentido social y cuidado del medio ambiente.</div>
         </div>
-      </div>“ECOLAC CIA LTDA.” Empresa cuya actividad económica es el procesamiento, elaboración y comercialización de lácteos y alimentos. Se compromete a apoyar a emprendedores y estudiantes de la UTPL, vender productos de calidad e inocuos tales que logre siempre la satisfacción del cliente, con colaboradores comprometidos, con sentido social y cuidado del medio ambiente.
+      </div>
     </div>
   </div>
 </main>
@@ -142,3 +136,6 @@
     <p>Teléfono</p>
   </div>
 </footer>
+<script src="../js/ext/bulma-carousel.min.js"></script>
+<script src="../js/jquery-3.3.1.min.js"></script>
+<script src="../js/main.js"></script>

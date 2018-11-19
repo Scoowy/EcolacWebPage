@@ -1,14 +1,15 @@
 nav(class="navbar is-info nav-sticky" role="navigation" aria-label="main navigation")
     div(class="navbar-brand")
+        a(class="navbar-item is-hidden-desktop", href=url+"index.html")
+            img(src=url+"img/Recurso1.png", alt="Index")
         a(role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample")
             span(aria-hidden="true")
             span(aria-hidden="true")
             span(aria-hidden="true")
 
-    div(id="navbarBasicExample" class="navbar-menu")
-        div(class="navbar-start")
-            a(class="navbar-item")
-                Inicio
+    div(id="navbar-main" class="navbar-menu")
+        div(class="container navbar-start")
+            a(class="navbar-item", href=url+"index.html") Inicio
             div(class="navbar-item has-dropdown is-hoverable")
                 a(class="navbar-link") Quiénes somos
                 div(class="navbar-dropdown")
@@ -28,4 +29,4 @@ nav(class="navbar is-info nav-sticky" role="navigation" aria-label="main navigat
                 a(class="navbar-link") Responsabilidad social
             
             div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link", href="./views/contactos") Contáctos
+                a(class="navbar-link", href="./views/contactos.html") Contáctos

@@ -1,0 +1,13 @@
+#menu_left{
+    padding-right: 2rem;
+    line-height: 2.5rem;
+}
+
+.main-content{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.img-brand{
+    max-height: 9rem;
+}
