@@ -1,32 +1,64 @@
-#menu_left{
+#menu_left {
     padding-right: 2rem;
     line-height: 2.5rem;
 }
 
-.main-content{
+.main-content {
     margin-top: 3rem;
     margin-bottom: 3rem;
 }
 
-.img-brand{
+.img-brand {
     max-height: 9rem;
 }
-.nav-color{
-    background-color:#19356A !important; 
+
+.nav-color {
+    background-color: #19356A !important;
 }
-.centrado{
+
+.centrado {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row nowrap;
     flex-flow: row nowrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
-.color-2{
+
+.color-2 {
     background-color: #4D70B0 !important;
-}  
-.color-3{
-    background-color:#19356A !important; 
 }
-.btn-expand{
-    width: 100%
+
+.color-3 {
+    background-color: #19356A !important;
 }
-.color-footer{
-    color:white !important;
+
+.color-footer {
+    color: white !important;
+}
+
+.align-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.align-btn .btn-width {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.btn-width {
+    width: 20rem;
+}
+
+.align-btn a:hover {
+    background-color: #4D70B0 !important;
 }

@@ -6,24 +6,22 @@ main(class="container py-2")
     section(class="section")
         div(class="columns")
             div(class="column is-two-fifths")
-                div(class="level")
-                  div(class="level-left", id="menu_left")
-                    aside(class="menu ")
-                          ul(class="menu-list button is-link is-medium color-3 is-italic btn-expand") Quienes somos 
-                          a(class="is-active") 
-                          ul
-                            li 
-                              a(class="button is-white is-outlined is-medium color-2 is-italic btn-expand") Mision
-                            li 
-                              a(class="button is-white is-outlined is-medium color-2 is-italic btn-expand",href="#vision") Vision
-                            li 
-                              a(class="button is-white is-outlined is-medium color-2 is-italic btn-expand",href="#valores") Valores
-                            li
-                              a(class="button is-white is-outlined is-medium color-2 is-italic btn-expand",href="#politica") Politica empresarial  
+                aside(class="menu")
+                    ul(class="menu-list align-btn")
+                        li(class="btn-width")
+                            a(class="button is-link is-outlined is-medium", href="./quienes_somos.html") Quienes somos
+                        li(class="btn-width") 
+                            a(class="button is-link is-outlined is-medium", href="#mision") Mision
+                        li(class="btn-width") 
+                            a(class="button is-link is-outlined is-medium",href="#vision") Vision
+                        li(class="btn-width") 
+                            a(class="button is-link is-outlined is-medium",href="#valores") Valores
+                        li(class="btn-width")
+                            a(class="button is-link is-outlined is-medium",href="#politica") Politica empresarial
             div(class="column") 
                 div(class="content")
                     div(class="level-rigth")  
-                      div(class="card")
+                      div(class="card", id="mision")
                         div(class="card-content")
                           div(class="media")
                             div(class="media-left")

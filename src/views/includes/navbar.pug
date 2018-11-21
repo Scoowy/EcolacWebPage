@@ -9,24 +9,19 @@ nav(class="navbar is-info nav-sticky nav-color" role="navigation" aria-label="ma
 
     div(id="navbar-main" class="navbar-menu")
         div(class="container navbar-start centrado")
-            a(class="navbar-item is-italic", href=url+"index.html") Inicio
+            a(class="navbar-item has-text-weight-semibold", href=url+"index.html") Inicio
             div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link is-italic") Quiénes somos
+                a(class="navbar-link has-text-weight-semibold") Quiénes somos
                 div(class="navbar-dropdown")
-                    a(class="navbar-item is-italic", href="./views/quienes_somos.html") Misión
-                    a(class="navbar-item is-italic") Visión
-                    a(class="navbar-item is-italic") Valores
-                    a(class="navbar-item is-italic") Política empresarial
-                    
+                    a(class="navbar-item has-text-weight-semibold", href=url+"views/quienes_somos.html#mision") Misión
+                    a(class="navbar-item has-text-weight-semibold", href=url+"views/quienes_somos.html#vision") Visión
+                    a(class="navbar-item has-text-weight-semibold", href=url+"views/quienes_somos.html#valores") Valores
+                    a(class="navbar-item has-text-weight-semibold", href=url+"views/quienes_somos.html#politica") Política empresarial
             div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link is-italic") Productos
+                a(class="navbar-link has-text-weight-semibold") Productos
                 div(class="navbar-dropdown")
-                    a(class="navbar-item is-italic") Producto 1
-                    a(class="navbar-item is-italic") Producto 2
-    
-            
+                    a(class="navbar-item has-text-weight-semibold") Producto 1
+                    a(class="navbar-item has-text-weight-semibold") Producto 2
             div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link is-italic") Valor compartido
-            
-            div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link is-italic", href="./views/contactos.html") Contáctos
+                a(class="navbar-link has-text-weight-semibold") Valor compartido
+            a(class="navbar-item has-text-weight-semibold", href=url+"views/contactos.html") Contáctos

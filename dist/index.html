@@ -25,15 +25,14 @@
 <nav class="navbar is-info nav-sticky nav-color" role="navigation" aria-label="main navigation">
   <div class="navbar-brand"><a class="navbar-item is-hidden-desktop" href="./index.html"><img src="./img/Recurso1.png" alt="Index"/></a><a class="navbar-burger burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
   <div class="navbar-menu" id="navbar-main">
-    <div class="container navbar-start centrado"><a class="navbar-item is-italic" href="./index.html">Inicio</a>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Quiénes somos</a>
-        <div class="navbar-dropdown"><a class="navbar-item is-italic" href="./views/quienes_somos.html">Misión</a><a class="navbar-item is-italic">Visión</a><a class="navbar-item is-italic">Valores</a><a class="navbar-item is-italic">Política empresarial</a></div>
+    <div class="container navbar-start centrado"><a class="navbar-item has-text-weight-semibold" href="./index.html">Inicio</a>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-weight-semibold">Quiénes somos</a>
+        <div class="navbar-dropdown"><a class="navbar-item has-text-weight-semibold" href="./views/quienes_somos.html#mision">Misión</a><a class="navbar-item has-text-weight-semibold" href="./views/quienes_somos.html#vision">Visión</a><a class="navbar-item has-text-weight-semibold" href="./views/quienes_somos.html#valores">Valores</a><a class="navbar-item has-text-weight-semibold" href="./views/quienes_somos.html#politica">Política empresarial</a></div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Productos</a>
-        <div class="navbar-dropdown"><a class="navbar-item is-italic">Producto 1</a><a class="navbar-item is-italic">Producto 2</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-weight-semibold">Productos</a>
+        <div class="navbar-dropdown"><a class="navbar-item has-text-weight-semibold">Producto 1</a><a class="navbar-item has-text-weight-semibold">Producto 2</a></div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Valor compartido</a></div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic" href="./views/contactos.html">Contáctos</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-weight-semibold">Valor compartido</a></div><a class="navbar-item has-text-weight-semibold" href="./views/contactos.html">Contáctos</a>
     </div>
   </div>
 </nav>
@@ -42,19 +41,20 @@
     <div class="columns">
       <div class="column is-two-fifths">
         <div class="card">
-          <div class="card-content estilo-card"></div><img class="img-brand1" src="./img/logo_1brand.PNG" width="500" height="250"/>
+          <div class="card-content"><img class="img-brand1" src="./img/logo_1brand.PNG" width="auto" height="250"/></div>
         </div>
       </div>
       <div class="column"> 
         <div class="content">
-          <div class="carousel carousel-animated carousel-animate-fade">
+          <div class="carousel carousel-animated carousel-animate-fade" data-autoplay="true" data-delay="3000">
             <div class="carousel-container"> 
-              <div class="carousel-item has-background is-active "></div><img class="is-background " src="./img/_EDU5033.JPG" width="800" height="50"/>
-              <div class="carousel-item has-background is-active"></div><img class="is-background ima-tamaño" src="./img/_EDU4052.JPG" width="500" height="250"/>
-              <div class="carousel-item has-background is-active"></div><img class="is-background ima-tamaño" src="./img/_EDU5059.JPG" width="500" height="250"/>
-              <div class="carousel-navigation is-overlay"></div>
-              <div class="carousel-nav-left"></div><i class="fa fa-chevron-left" aria-hidden="true"></i>
-              <div class="carousel-nav-right"></div><i class="fa fa-chevron-right" aria-hidden="true"></i>
+              <div class="carousel-item has-background is-active"><img class="is-background" src="./img/_EDU5033.JPG" width="500" height="250"/></div>
+              <div class="carousel-item has-background"><img class="is-background" src="./img/_EDU4052.JPG" width="500" height="250"/></div>
+              <div class="carousel-item has-background"><img class="is-background" src="./img/_EDU5059.JPG" width="500" height="250"/></div>
+            </div>
+            <div class="carousel-navigation is-overlay">
+              <div class="carousel-nav-left"><span class="icon has-text-info"><i class="fa fa-chevron-left" aria-hidden="true"></i></span></div>
+              <div class="carousel-nav-right"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
             </div>
           </div>
         </div>

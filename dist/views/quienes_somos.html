@@ -25,15 +25,14 @@
 <nav class="navbar is-info nav-sticky nav-color" role="navigation" aria-label="main navigation">
   <div class="navbar-brand"><a class="navbar-item is-hidden-desktop" href="../index.html"><img src="../img/Recurso1.png" alt="Index"/></a><a class="navbar-burger burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
   <div class="navbar-menu" id="navbar-main">
-    <div class="container navbar-start centrado"><a class="navbar-item is-italic" href="../index.html">Inicio</a>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Quiénes somos</a>
-        <div class="navbar-dropdown"><a class="navbar-item is-italic" href="./views/quienes_somos.html">Misión</a><a class="navbar-item is-italic">Visión</a><a class="navbar-item is-italic">Valores</a><a class="navbar-item is-italic">Política empresarial</a></div>
+    <div class="container navbar-start centrado"><a class="navbar-item has-text-weight-semibold" href="../index.html">Inicio</a>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-weight-semibold">Quiénes somos</a>
+        <div class="navbar-dropdown"><a class="navbar-item has-text-weight-semibold" href="../views/quienes_somos.html#mision">Misión</a><a class="navbar-item has-text-weight-semibold" href="../views/quienes_somos.html#vision">Visión</a><a class="navbar-item has-text-weight-semibold" href="../views/quienes_somos.html#valores">Valores</a><a class="navbar-item has-text-weight-semibold" href="../views/quienes_somos.html#politica">Política empresarial</a></div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Productos</a>
-        <div class="navbar-dropdown"><a class="navbar-item is-italic">Producto 1</a><a class="navbar-item is-italic">Producto 2</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-weight-semibold">Productos</a>
+        <div class="navbar-dropdown"><a class="navbar-item has-text-weight-semibold">Producto 1</a><a class="navbar-item has-text-weight-semibold">Producto 2</a></div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Valor compartido</a></div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic" href="./views/contactos.html">Contáctos</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link has-text-weight-semibold">Valor compartido</a></div><a class="navbar-item has-text-weight-semibold" href="../views/contactos.html">Contáctos</a>
     </div>
   </div>
 </nav>
@@ -41,24 +40,20 @@
   <section class="section">
     <div class="columns">
       <div class="column is-two-fifths">
-        <div class="level">
-          <div class="level-left" id="menu_left">
-            <aside class="menu ">
-              <ul class="menu-list button is-link is-medium color-3 is-italic btn-expand">Quienes somos </ul><a class="is-active"> </a>
-              <ul>
-                <li> <a class="button is-white is-outlined is-medium color-2 is-italic btn-expand">Mision</a></li>
-                <li> <a class="button is-white is-outlined is-medium color-2 is-italic btn-expand" href="#vision">Vision</a></li>
-                <li> <a class="button is-white is-outlined is-medium color-2 is-italic btn-expand" href="#valores">Valores</a></li>
-                <li><a class="button is-white is-outlined is-medium color-2 is-italic btn-expand" href="#politica">Politica empresarial  </a></li>
-              </ul>
-            </aside>
-          </div>
-        </div>
+        <aside class="menu">
+          <ul class="menu-list align-btn">
+            <li class="btn-width"><a class="button is-link is-outlined is-medium" href="./quienes_somos.html">Quienes somos</a></li>
+            <li class="btn-width"> <a class="button is-link is-outlined is-medium" href="#mision">Mision</a></li>
+            <li class="btn-width"> <a class="button is-link is-outlined is-medium" href="#vision">Vision</a></li>
+            <li class="btn-width"> <a class="button is-link is-outlined is-medium" href="#valores">Valores</a></li>
+            <li class="btn-width"><a class="button is-link is-outlined is-medium" href="#politica">Politica empresarial</a></li>
+          </ul>
+        </aside>
       </div>
       <div class="column"> 
         <div class="content">
           <div class="level-rigth"> 
-            <div class="card">
+            <div class="card" id="mision">
               <div class="card-content">
                 <div class="media">
                   <div class="media-left"></div>
