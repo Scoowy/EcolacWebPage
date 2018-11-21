@@ -1,4 +1,4 @@
-nav(class="navbar is-info nav-sticky" role="navigation" aria-label="main navigation")
+nav(class="navbar is-info nav-sticky nav-color" role="navigation" aria-label="main navigation")
     div(class="navbar-brand")
         a(class="navbar-item is-hidden-desktop", href=url+"index.html")
             img(src=url+"img/Recurso1.png", alt="Index")
@@ -8,25 +8,25 @@ nav(class="navbar is-info nav-sticky" role="navigation" aria-label="main navigat
             span(aria-hidden="true")
 
     div(id="navbar-main" class="navbar-menu")
-        div(class="container navbar-start")
-            a(class="navbar-item", href=url+"index.html") Inicio
+        div(class="container navbar-start centrado")
+            a(class="navbar-item is-italic", href=url+"index.html") Inicio
             div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link") Quiénes somos
+                a(class="navbar-link is-italic") Quiénes somos
                 div(class="navbar-dropdown")
-                    a(class="navbar-item", href="./views/quienes_somos.html") Sobre nosotros
-                    a(class="navbar-item") Trabajos
-            
+                    a(class="navbar-item is-italic", href="./views/quienes_somos.html") Misión
+                    a(class="navbar-item is-italic") Visión
+                    a(class="navbar-item is-italic") Valores
+                    a(class="navbar-item is-italic") Política empresarial
+                    
             div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link") Productos
+                a(class="navbar-link is-italic") Productos
                 div(class="navbar-dropdown")
-                    a(class="navbar-item") Producto 1
-                    a(class="navbar-item") Producto 2
-                    a(class="navbar-item") Producto 3
-                    hr(class="navbar-divider")
-                    a(class="navbar-item") Producto diferente
+                    a(class="navbar-item is-italic") Producto 1
+                    a(class="navbar-item is-italic") Producto 2
+    
             
             div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link") Responsabilidad social
+                a(class="navbar-link is-italic") Valor compartido
             
             div(class="navbar-item has-dropdown is-hoverable")
-                a(class="navbar-link", href="./views/contactos.html") Contáctos
+                a(class="navbar-link is-italic", href="./views/contactos.html") Contáctos
