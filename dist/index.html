@@ -22,41 +22,53 @@
     </header>
   </body>
 </html>
-<nav class="navbar is-info nav-sticky" role="navigation" aria-label="main navigation">
+<nav class="navbar is-info nav-sticky nav-color" role="navigation" aria-label="main navigation">
   <div class="navbar-brand"><a class="navbar-item is-hidden-desktop" href="./index.html"><img src="./img/Recurso1.png" alt="Index"/></a><a class="navbar-burger burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
   <div class="navbar-menu" id="navbar-main">
-    <div class="container navbar-start"><a class="navbar-item" href="./index.html">Inicio</a>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Quiénes somos</a>
-        <div class="navbar-dropdown"><a class="navbar-item" href="./views/quienes_somos.html">Sobre nosotros</a><a class="navbar-item">Trabajos</a></div>
+    <div class="container navbar-start centrado"><a class="navbar-item is-italic" href="./index.html">Inicio</a>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Quiénes somos</a>
+        <div class="navbar-dropdown"><a class="navbar-item is-italic" href="./views/quienes_somos.html">Misión</a><a class="navbar-item is-italic">Visión</a><a class="navbar-item is-italic">Valores</a><a class="navbar-item is-italic">Política empresarial</a></div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Productos</a>
-        <div class="navbar-dropdown"><a class="navbar-item">Producto 1</a><a class="navbar-item">Producto 2</a><a class="navbar-item">Producto 3</a>
-          <hr class="navbar-divider"/><a class="navbar-item">Producto diferente</a>
-        </div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Productos</a>
+        <div class="navbar-dropdown"><a class="navbar-item is-italic">Producto 1</a><a class="navbar-item is-italic">Producto 2</a></div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Responsabilidad social</a></div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="./views/contactos.html">Contáctos</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Valor compartido</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic" href="./views/contactos.html">Contáctos</a></div>
     </div>
   </div>
 </nav>
-<main class="container main-content">
-  <div class="card">
-    <div class="card-content">
-      <p class="title">“There are two hard things in computer science: cache invalidation, naming things, and off-by-one errors.”</p>
-      <p class="subtitle">Jeff Atwood</p>
+<main class="container py-2">
+  <section class="section">
+    <div class="columns">
+      <div class="column is-two-fifths">
+        <div class="card">
+          <div class="card-content estilo-card"></div><img class="img-brand1" src="./img/logo_1brand.PNG" width="500" height="250"/>
+        </div>
+      </div>
+      <div class="column"> 
+        <div class="content">
+          <div class="carousel carousel-animated carousel-animate-fade">
+            <div class="carousel-container"> 
+              <div class="carousel-item has-background is-active "></div><img class="is-background " src="./img/_EDU5033.JPG" width="800" height="50"/>
+              <div class="carousel-item has-background is-active"></div><img class="is-background ima-tamaño" src="./img/_EDU4052.JPG" width="500" height="250"/>
+              <div class="carousel-item has-background is-active"></div><img class="is-background ima-tamaño" src="./img/_EDU5059.JPG" width="500" height="250"/>
+              <div class="carousel-navigation is-overlay"></div>
+              <div class="carousel-nav-left"></div><i class="fa fa-chevron-left" aria-hidden="true"></i>
+              <div class="carousel-nav-right"></div><i class="fa fa-chevron-right" aria-hidden="true"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <footer class="card-footer">
-      <p class="card-footer-item"></p><span>View on <a href="#">Twitter</a></span>
-      <p class="card-footer-item"></p><span>Share on <a href="#">Facebook</a></span>
-    </footer>
-  </div>
+  </section>
 </main>
-<footer class="footer has-background-info py-2">
-  <div class="content has-text-centered">
-    <p><strong>ECOLAC CIA LTDA</strong></p>
-    <p>Correo</p>
-    <p>Dirección</p>
-    <p>Teléfono</p>
+<footer class="footer has-background-dark py-2">
+  <div class="content has-text-centered color-footer">
+    <p>ECOLAC CIA LTDA</p>
+    <p>Correo: info@ecolac.com.ec</p>
+    <p>Dirección: Barrio San cayetano,Calle Paris(Campus UTPL)</p>
+    <p>Teléfonos: 072611411 - 0994562816</p>
+    <p>LOJA - ECUADOR</p>
   </div>
 </footer>
 <script src="./js/ext/bulma-carousel.min.js"></script>

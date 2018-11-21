@@ -11,3 +11,22 @@
 .img-brand{
     max-height: 9rem;
 }
+.nav-color{
+    background-color:#19356A !important; 
+}
+.centrado{
+    flex-flow: row nowrap;
+    justify-content: space-around;
+}
+.color-2{
+    background-color: #4D70B0 !important;
+}  
+.color-3{
+    background-color:#19356A !important; 
+}
+.btn-expand{
+    width: 100%
+}
+.color-footer{
+    color:white !important;
+}

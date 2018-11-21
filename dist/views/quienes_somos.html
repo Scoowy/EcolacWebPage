@@ -22,118 +22,119 @@
     </header>
   </body>
 </html>
-<nav class="navbar is-info nav-sticky" role="navigation" aria-label="main navigation">
+<nav class="navbar is-info nav-sticky nav-color" role="navigation" aria-label="main navigation">
   <div class="navbar-brand"><a class="navbar-item is-hidden-desktop" href="../index.html"><img src="../img/Recurso1.png" alt="Index"/></a><a class="navbar-burger burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"><span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span></a></div>
   <div class="navbar-menu" id="navbar-main">
-    <div class="container navbar-start"><a class="navbar-item" href="../index.html">Inicio</a>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Quiénes somos</a>
-        <div class="navbar-dropdown"><a class="navbar-item" href="./views/quienes_somos.html">Sobre nosotros</a><a class="navbar-item">Trabajos</a></div>
+    <div class="container navbar-start centrado"><a class="navbar-item is-italic" href="../index.html">Inicio</a>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Quiénes somos</a>
+        <div class="navbar-dropdown"><a class="navbar-item is-italic" href="./views/quienes_somos.html">Misión</a><a class="navbar-item is-italic">Visión</a><a class="navbar-item is-italic">Valores</a><a class="navbar-item is-italic">Política empresarial</a></div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Productos</a>
-        <div class="navbar-dropdown"><a class="navbar-item">Producto 1</a><a class="navbar-item">Producto 2</a><a class="navbar-item">Producto 3</a>
-          <hr class="navbar-divider"/><a class="navbar-item">Producto diferente</a>
-        </div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Productos</a>
+        <div class="navbar-dropdown"><a class="navbar-item is-italic">Producto 1</a><a class="navbar-item is-italic">Producto 2</a></div>
       </div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link">Responsabilidad social</a></div>
-      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link" href="./views/contactos.html">Contáctos</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic">Valor compartido</a></div>
+      <div class="navbar-item has-dropdown is-hoverable"><a class="navbar-link is-italic" href="./views/contactos.html">Contáctos</a></div>
     </div>
   </div>
 </nav>
-<main class="container main-content">
-  <div class="level">
-    <div class="level-left" id="menu_left">
-      <aside class="menu">
-        <ul class="menu-list"></ul><a class="is-active">Quienes somos</a>
-        <ul>
-          <li> <a>Mision</a></li>
-          <li> <a href="#vision">Vision</a></li>
-          <li> <a href="#valores">Valores</a></li>
-          <li><a href="#politica">Politica empresarial</a></li>
-        </ul>
-      </aside>
+<main class="container py-2">
+  <section class="section">
+    <div class="columns">
+      <div class="column is-two-fifths">
+        <div class="level">
+          <div class="level-left" id="menu_left">
+            <aside class="menu ">
+              <ul class="menu-list button is-link is-medium color-3 is-italic btn-expand">Quienes somos </ul><a class="is-active"> </a>
+              <ul>
+                <li> <a class="button is-white is-outlined is-medium color-2 is-italic btn-expand">Mision</a></li>
+                <li> <a class="button is-white is-outlined is-medium color-2 is-italic btn-expand" href="#vision">Vision</a></li>
+                <li> <a class="button is-white is-outlined is-medium color-2 is-italic btn-expand" href="#valores">Valores</a></li>
+                <li><a class="button is-white is-outlined is-medium color-2 is-italic btn-expand" href="#politica">Politica empresarial  </a></li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </div>
+      <div class="column"> 
+        <div class="content">
+          <div class="level-rigth"> 
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left"></div>
+                  <div class="media-content">
+                    <p class="title is-4">Mision</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Ser en el 2017 una empresa líder en el mercado de la región sur del país, 
+                  en la producción y comercialización de productos lácteos y alimentos, 
+                  de apoyo a emprendedores y estudiantes de la UTPL; construida en sus propias instalaciones, 
+                  con moderna tecnología, que garantice productos de calidad e inocuos, 
+                  con colaboradores comprometidos, con sentido social y cuidado del medio ambiente. 
+                </div>
+              </div>
+            </div>
+            <div class="card" id="vision">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left"> </div>
+                  <div class="media-content">
+                    <p class="title is-4">Vision</p>
+                  </div>
+                </div>
+                <div class="content">
+                   Somos una empresa de tradición en el mercado local y en constante crecimiento,
+                  que brinda sus instalaciones a estudiantes y emprendedores de la UTPL, 
+                  elaborando variedad de productos lácteos inocuos y de calidad, 
+                  con permanente innovación de su maquinaria y capacitación continua de su personal humano, 
+                  comprometidos con el desarrollo agroindustrial de la región sur del país, la sociedad 
+                  y el medio ambiente.         
+                </div>
+              </div>
+            </div>
+            <div class="card" id="valores">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left"></div>
+                  <div class="media-content">
+                    <p class="title is-4">Valores</p>
+                  </div>
+                </div>
+                <div class="content">
+                  Calidad: En la elaboración de productos inocuos en base a un sistema de aseguramiento de Calidad.
+                  Compromiso: Personal humano comprometido con la empresa para trabajo en equipo; con nuestro clientes, al brindarles productos de calidad; con la sociedad, al ofrecer estabilidad a su personal; con el sector ganadero aportando con capacitación y progreso; con los estudiantes y emprendedores de la UTPL dando las facilidades para su formación académica y desarrollo de proyectos y con el medio ambiente, al respetar y cumplir todas las normas establecidas para el cuidado de éste.
+                  Confianza: En la empresa y en el trabajo que realizaremos, con la finalidad de satisfacer a cada uno de nuestros clientes internos y externos.
+                  Justicia: Hacia nuestro personal y del personal a la empresa.
+                  Puntualidad: En la entrega de productos a nuestros clientes internos y externos.
+                  Innovación: De nuestras estrategias, métodos de trabajo, maquinaria, instalaciones y equipos.           
+                </div>
+              </div>
+            </div>
+            <div class="card" id="politica">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left"> </div>
+                  <div class="media-content">
+                    <p class="title is-4">Politica empresarial</p>
+                  </div>
+                </div>
+                <div class="content">“ECOLAC CIA LTDA.” Empresa cuya actividad económica es el procesamiento, elaboración y comercialización de lácteos y alimentos. Se compromete a apoyar a emprendedores y estudiantes de la UTPL, vender productos de calidad e inocuos tales que logre siempre la satisfacción del cliente, con colaboradores comprometidos, con sentido social y cuidado del medio ambiente.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="level-rigth"> 
-      <div class="card">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48"><img src="../img/Recurso 1.PNG"/></figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Mision</p>
-            </div>
-          </div>
-          <div class="content">
-            Ser en el 2017 una empresa líder en el mercado de la región sur del país, 
-            en la producción y comercialización de productos lácteos y alimentos, 
-            de apoyo a emprendedores y estudiantes de la UTPL; construida en sus propias instalaciones, 
-            con moderna tecnología, que garantice productos de calidad e inocuos, 
-            con colaboradores comprometidos, con sentido social y cuidado del medio ambiente.
-          </div>
-        </div>
-      </div>
-      <div class="card" id="vision">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48"><img src="../img/Recurso 1.PNG"/></figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Vision</p>
-            </div>
-          </div>
-          <div class="content">
-             Somos una empresa de tradición en el mercado local y en constante crecimiento,
-            que brinda sus instalaciones a estudiantes y emprendedores de la UTPL, 
-            elaborando variedad de productos lácteos inocuos y de calidad, 
-            con permanente innovación de su maquinaria y capacitación continua de su personal humano, 
-            comprometidos con el desarrollo agroindustrial de la región sur del país, la sociedad 
-            y el medio ambiente.
-          </div>
-        </div>
-      </div>
-      <div class="card" id="valores">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48"><img src="../img/Recurso 1.PNG"/></figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Valores</p>
-            </div>
-          </div>
-          <div class="content">
-            Calidad: En la elaboración de productos inocuos en base a un sistema de aseguramiento de Calidad.
-            Compromiso: Personal humano comprometido con la empresa para trabajo en equipo; con nuestro clientes, al brindarles productos de calidad; con la sociedad, al ofrecer estabilidad a su personal; con el sector ganadero aportando con capacitación y progreso; con los estudiantes y emprendedores de la UTPL dando las facilidades para su formación académica y desarrollo de proyectos y con el medio ambiente, al respetar y cumplir todas las normas establecidas para el cuidado de éste.
-            Confianza: En la empresa y en el trabajo que realizaremos, con la finalidad de satisfacer a cada uno de nuestros clientes internos y externos.
-            Justicia: Hacia nuestro personal y del personal a la empresa.
-            Puntualidad: En la entrega de productos a nuestros clientes internos y externos.
-            Innovación: De nuestras estrategias, métodos de trabajo, maquinaria, instalaciones y equipos. 
-          </div>
-        </div>
-      </div>
-      <div class="card" id="politica">
-        <div class="card-content">
-          <div class="media">
-            <div class="media-left">
-              <figure class="image is-48x48"><img src="../img/Recurso 1.PNG"/></figure>
-            </div>
-            <div class="media-content">
-              <p class="title is-4">Politica empresarial</p>
-            </div>
-          </div>
-          <div class="content">“ECOLAC CIA LTDA.” Empresa cuya actividad económica es el procesamiento, elaboración y comercialización de lácteos y alimentos. Se compromete a apoyar a emprendedores y estudiantes de la UTPL, vender productos de calidad e inocuos tales que logre siempre la satisfacción del cliente, con colaboradores comprometidos, con sentido social y cuidado del medio ambiente.</div>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 </main>
-<footer class="footer has-background-info py-2">
-  <div class="content has-text-centered">
-    <p><strong>ECOLAC CIA LTDA</strong></p>
-    <p>Correo</p>
-    <p>Dirección</p>
-    <p>Teléfono</p>
+<footer class="footer has-background-dark py-2">
+  <div class="content has-text-centered color-footer">
+    <p>ECOLAC CIA LTDA</p>
+    <p>Correo: info@ecolac.com.ec</p>
+    <p>Dirección: Barrio San cayetano,Calle Paris(Campus UTPL)</p>
+    <p>Teléfonos: 072611411 - 0994562816</p>
+    <p>LOJA - ECUADOR</p>
   </div>
 </footer>
 <script src="../js/ext/bulma-carousel.min.js"></script>
