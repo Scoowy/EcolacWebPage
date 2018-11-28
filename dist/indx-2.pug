@@ -3,14 +3,15 @@
 include views/includes/header.pug
 include views/includes/navbar.pug
 
-section(class="hero is-primary is-fullheight")
-    div(class="hero-body")
-        div(class="container has-text-centered")
-            h1(class="title")
-                |Title
-            h2(class="subtitle")
-                |Subtitle   
-    div(class="content")
+main(class="container py-2")
+    section(class="section")
+        div(class="columns")
+            div(class="column is-two-fifths")
+                div(class="card")
+                    div(class="card-content")
+                        img(class="img-brand1", src=url+"img/logo_1brand.PNG" ,width="auto" ,height="250")
+            div(class="column") 
+                div(class="content")
                     div(class="carousel carousel-animated carousel-animate-fade", data-autoplay="true", data-delay="3000")
                         div(class="carousel-container") 
                             div(class="carousel-item has-background is-active")
@@ -26,15 +27,5 @@ section(class="hero is-primary is-fullheight")
                             div(class="carousel-nav-right")
                                 i(class="fa fa-chevron-right" aria-hidden="true")
 
-                           
 
-main(class="container py-2")
-    section(class="section")
-        div(class="columns")
-            div(class="column is-two-fifths")
-                div(class="card")
-                    div(class="card-content")
-                        img(class="img-brand1", src=url+"img/logo_1brand.PNG" ,width="auto" ,height="250")
-            div(class="column") 
-                
 include views/includes/footer.pug

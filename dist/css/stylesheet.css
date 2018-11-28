@@ -9,13 +9,21 @@
 }
 
 .img-brand {
-    max-height: 9rem;
+    min-width: 25rem;
+}
+.cont-image{
+    max-height: 15rem;
+    overflow: hidden;
+    
+}
+.rest-pad-y{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 .nav-color {
     background-color: #19356A !important;
 }
-
 .centrado {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -24,17 +32,21 @@
     -ms-flex-pack: distribute;
     justify-content: space-around;
 }
-
 .color-2 {
     background-color: #4D70B0 !important;
 }
-
 .color-3 {
     background-color: #19356A !important;
 }
 
 .color-footer {
-    color: white !important;
+    background-color: #19356A !important;
+}
+.color-text{
+    color:#B7B5BF ;
+}
+.format-p>p{
+    margin-bottom: 1px;
 }
 
 .align-btn {
