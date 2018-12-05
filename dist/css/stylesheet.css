@@ -19,8 +19,8 @@
 }
 
 .rest-pad-y {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
 }
 
 .nav-color {
@@ -44,14 +44,12 @@
     background-color: #19356A !important;
 }
 
-.color-footer {
-    background-color: #19356A !important;
-}
-
 .color-text {
     color: #B7B5BF;
 }
-
+.color-text1 {
+    color: white;
+}
 .format-p>p {
     margin-bottom: 1px;
 }
@@ -103,4 +101,11 @@
 .img-brand {
     /* background-color: rgba(0, 0, 0, 0.2); */
     margin-left: 3rem;
+}
+.tamaño-productos{
+    position: relative;
+    min-width: 0rem;
+}
+.is-background{
+    
 }
