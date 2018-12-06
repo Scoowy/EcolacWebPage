@@ -1,7 +1,6 @@
-body {
+body{
     font-family: 'Roboto', sans-serif !important;
 }
-
 #menu_left {
     padding-right: 2rem;
     line-height: 2.5rem;
@@ -10,6 +9,10 @@ body {
 .main-content {
     margin-top: 3rem;
     margin-bottom: 3rem;
+}
+
+.img-brand {
+    min-width: 25rem;
 }
 
 .cont-image {
@@ -47,15 +50,9 @@ body {
 .color-text {
     color: #B7B5BF;
 }
-
 .color-text1 {
     color: white;
 }
-
-.color-text3 {
-    color: #19356A !important;
-}
-
 .format-p>p {
     margin-bottom: 1px;
 }
@@ -105,58 +102,35 @@ body {
 }
 
 .img-brand {
-    max-height: 30rem;
-    width: 100%;
-    margin: auto;
-    filter: blur(2px);
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    margin-left: 3rem;
 }
-
-.exedent {
-    overflow: auto;
-    position: relative;
-}
-
-.exedent:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    z-index: -1;
-
-    display: block;
-    background-image: url(../img/BODEGON1.jpeg);
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-    background-position-y: 30%;
-
-    filter: blur(3px);
-}
-
-.tamaño-productos {
-    position: relative;
-    min-width: 0rem;
-}
-
-.navbar-item {
-    transition-duration: 1000ms !important;
-}
-
-.is-tamaño {
+.is-tamaño{
     width: 35rem;
 }
-
-.is-horizontal-center {
+.is-horizontal-center{
     justify-content: center;
 }
-
-.centrado-texto {
+.centrado-texto{
     height: 100%;
 }
-
-.centrado-xy {
-    justify-content: center;
-    justify-items: center;
-    align-content: center;
-    align-items: center;
+#video-ecolac{
+    width: 600px;
+}
+.video-container{
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.video-container iframe,
+.video-container object, 
+.video-container embed{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     
 }
