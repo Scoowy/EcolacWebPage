@@ -132,6 +132,7 @@ body {
 
     filter: blur(3px);
 }
+<<<<<<< HEAD
 
 .exedent .title {}
 
@@ -142,4 +143,20 @@ body {
 
 .navbar-item {
     transition-duration: 1000ms !important;
+=======
+.is-tamaño{
+    width: 35rem;
+}
+.is-horizontal-center{
+    justify-content: center;
+}
+.centrado-texto{
+    height: 100%;
+}
+.centrado-xy{
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    align-items: center;
+>>>>>>> 0be58593b98a6dbc8ab332496555b073c08d2d59
 }
