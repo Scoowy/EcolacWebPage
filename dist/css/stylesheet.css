@@ -105,7 +105,9 @@ body{
     /* background-color: rgba(0, 0, 0, 0.2); */
     margin-left: 3rem;
 }
-.tamaño-productos{
-    position: relative;
-    min-width: 0rem;
+.is-tamaño{
+    width: 35rem;
+}
+.is-horizontal-center{
+    justify-content: center;
 }
