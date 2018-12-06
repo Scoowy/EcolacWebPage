@@ -2,12 +2,14 @@
 
 include includes/head.pug
 include includes/navbar.pug
-section(class="hero is-link is-medium nav-color")
-  div(class="hero-body")
-    div(class="container is-paddingless is-marginless")
-        img(class="is-background" , src=url+"img/BODEGON1.JPEG")
-                                                     
-         
+section(class="hero is-medium exedent")
+    div(class="hero-body")
+        div(class="container")
+            h1(class="title color-text3 is-size-1")
+                | Productos
+        //- img(class="is-background img-brand" , src=url+"img/BODEGON1.JPEG")
+
+
 main(class="container py-2")
     section(class="section")
         div(class="columns is-multiline is-tablet")
@@ -21,8 +23,8 @@ main(class="container py-2")
                             div(class="media-content")
                                 p(class="title is-4") LECHE
                             div(class="media-right")
-                                a(class="button is-link is-rounded") Información
-                                    
+                                a(class="button is-link is-rounded modal-btn", data-target="modal1") Información
+
             div(class="column is-4")
                 div(class="card")
                     div(class="card-image")
@@ -33,7 +35,8 @@ main(class="container py-2")
                             div(class="media-content")
                                 p(class="title is-4") YOGURT
                             div(class="media-right")
-                                a(class="button is-link is-rounded") Información
+                                a(class="button is-link is-rounded modal-btn", data-target="modal2") Información
+
             div(class="column is-4")
                 div(class="card")
                     div(class="card-image")
@@ -44,7 +47,8 @@ main(class="container py-2")
                             div(class="media-content")
                                 p(class="title is-4") CREMA DE LECHE
                             div(class="media-right")
-                                a(class="button is-link is-rounded") Información
+                                a(class="button is-link is-rounded modal-btn", data-target="modal3") Información
+
             div(class="column is-4")
                 div(class="card")
                     div(class="card-image")
@@ -55,7 +59,8 @@ main(class="container py-2")
                             div(class="media-content")
                                 p(class="title is-4") MANJAR
                             div(class="media-right")
-                                a(class="button is-link is-rounded") Información
+                                a(class="button is-link is-rounded modal-btn", data-target="modal4") Información
+
             div(class="column is-4")
                 div(class="card")
                     div(class="card-image")
@@ -66,23 +71,20 @@ main(class="container py-2")
                             div(class="media-content")
                                 p(class="title is-4") MANTEQUILLA
                             div(class="media-right")
-                                a(class="button is-link is-rounded") Información      
+                                a(class="button is-link is-rounded modal-btn", data-target="modal5") Información
 
-main(class="container")
-    div(class="card")
-        div(class="card-image")
-            figure(class="image is-4by3")
-                img(src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image")
-        div(class="card-content")
-            div(class="media")
-                div(class="media-left")
-                    figure(class="image is-48x48")
-                    img(src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image")
-                div(class="media-content")
-                    p(class="title is-4") John Smit 
-                    p(class="subtitle is-6") @johnsmith
-                div(class="content")
-                |Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                |Phasellus nec iaculis.
+            div(class="column is-4")
+                div(class="card")
+                    div(class="card-image")
+                        figure(class="image is-square")
+                            img(src=url+"img/producto_5.JPG")
+                    div(class="card-content")
+                        div(class="media")
+                            div(class="media-content")
+                                p(class="title is-4") QUESO
+                            div(class="media-right")
+                                a(class="button is-link is-rounded modal-btn", data-target="modal6") Información
+
+            include includes/modals.pug
 
 include includes/footer.pug
