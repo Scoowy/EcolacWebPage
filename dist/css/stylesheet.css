@@ -1,6 +1,7 @@
-body{
+body {
     font-family: 'Roboto', sans-serif !important;
 }
+
 #menu_left {
     padding-right: 2rem;
     line-height: 2.5rem;
@@ -50,9 +51,11 @@ body{
 .color-text {
     color: #B7B5BF;
 }
+
 .color-text1 {
     color: white;
 }
+
 .format-p>p {
     margin-bottom: 1px;
 }
@@ -105,32 +108,64 @@ body{
     /* background-color: rgba(0, 0, 0, 0.2); */
     margin-left: 3rem;
 }
-.is-tamaño{
+
+.is-tamaño {
     width: 35rem;
 }
-.is-horizontal-center{
+
+.is-horizontal-center {
     justify-content: center;
 }
-.centrado-texto{
+
+.centrado-texto {
     height: 100%;
 }
-#video-ecolac{
+
+#video-ecolac {
     width: 600px;
 }
-.video-container{
+
+.video-container {
     position: relative;
     padding-bottom: 56.25%;
     padding-top: 30px;
     height: 0;
     overflow: hidden;
 }
+
 .video-container iframe,
-.video-container object, 
-.video-container embed{
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
-     height: 100%;
-     
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+.exedent {
+    overflow: auto;
+    position: relative;
+}
+
+.exedent:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    background-image: url(../img/BODEGON1.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position-y: 30%;
+
+    filter: blur(2px);
+}
+
+.navbar-item {
+    transition-duration: 1000ms !important;
 }
