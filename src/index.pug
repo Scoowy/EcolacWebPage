@@ -22,14 +22,15 @@ main(class="container")
             br
             h1(class="title has-text-centered color-text3") QUIÉNES SOMOS
             h2(class="subtitle has-text-justified")
-                |Ecolac, es una empresa que trabaja y es apollada por la Universidad Técnica Particualar de Loja.
+                |Ecolac, es una empresa que trabaja y es apoyada por la Universidad Técnica Particualar de Loja.
                 a(href=url+"views/quienes_somos.html") Ver más
             div(class= "card equal-height is-borderless is-shadowless")
                 div(class= "card-content is-flex is-horizontal-center")    
                     figure(class="image is-tamaño has-centered")
                         img(src=url+"img/utpl-color.png")
-    div(class= "card is-borderless is-shadowless")
-        div(class= "card-content video-container")
-            iframe(width="640", height="360",src="https://www.youtube.com/embed/WnClmW_DAAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)                  
+
+    div(class="container " id="color-video")       
+        div(class="video-container")                        
+            iframe(width="400", height="200",src="https://www.youtube.com/embed/WnClmW_DAAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)                  
     br
 include views/includes/footer.pug

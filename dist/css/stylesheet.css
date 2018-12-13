@@ -144,6 +144,10 @@ body {
 
 }
 
+#color-video{
+    background-color:hsl(204, 86%, 53%);
+    padding: 2rem 10rem;
+}
 .exedent {
     overflow: auto;
     position: relative;
