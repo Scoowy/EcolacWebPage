@@ -169,3 +169,8 @@ body {
 .navbar-item {
     transition-duration: 1000ms !important;
 }
+
+.img-adaptative {
+    height: 100% !important;
+    width: auto !important;
+}
