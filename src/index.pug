@@ -1,6 +1,7 @@
 - var url = './';
 
 include views/includes/head.pug
+
 section(class="hero is-fullheight has-carousel")
     div(class="hero-carousel carousel-animated carousel-animate-fade is-overlay", data-autoplay="true", data-delay="5000")
         div(class="carousel-container blur-imgs")
@@ -12,25 +13,27 @@ section(class="hero is-fullheight has-carousel")
                 img(class="is-background" , src=url+"img/_EDU5059.JPG",width="500" ,height="250")
     div(class="hero-head")
         include views/includes/navbar.pug
+
     div(class="hero-body")
         div(class="container")
             div(class="title")
-                img(class="", src=url+"img/Recurso1.png")  
-main(class="container")
+                img(class="", src=url+"img/Recurso1.png")
+
+main(class="container py-3 px-2")
     div(class="columns is-mobile")
         div(class="column is-three-fifths is-offset-one-fifth")
-            br
             h1(class="title has-text-centered color-text3") QUIÉNES SOMOS
             h2(class="subtitle has-text-justified")
-                |Ecolac, es una empresa que trabaja y es apoyada por la Universidad Técnica Particualar de Loja.
+                |Ecolac, es una empresa que trabaja y es apoyada por la Universidad Técnica Particualar de Loja. 
                 a(href=url+"views/quienes_somos.html") Ver más
+
             div(class= "card equal-height is-borderless is-shadowless")
                 div(class= "card-content is-flex is-horizontal-center")    
                     figure(class="image is-tamaño has-centered")
                         img(src=url+"img/utpl-color.png")
 
-    div(class="container " id="color-video")       
-        div(class="video-container")                        
-            iframe(width="400", height="200",src="https://www.youtube.com/embed/WnClmW_DAAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)                  
-    br
+    div(class="container")
+        div(class="video-container box")
+            iframe(width="400", height="200",src="https://www.youtube.com/embed/WnClmW_DAAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 include views/includes/footer.pug
